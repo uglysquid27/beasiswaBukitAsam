@@ -1,8 +1,8 @@
 <main class="">
 
-    <!-- <app-navbar *ngIf="isDashboard()"></app-navbar> -->
+    <app-navbar></app-navbar>
   
-  <app-sidebar></app-sidebar>
+  <app-sidebar *ngIf="isDashboard()"></app-sidebar>
   <div>
    
     <router-outlet>
